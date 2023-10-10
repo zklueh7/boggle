@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}Boggle{% endblock %}
+
+{% block content %}
+<table>
+    {% for row in range(5) %}
+    <tr>
+        {% for cell in range(5) %}
+            <td>{{board[row][cell]}}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+<br>
+<form method="POST">
+    Enter guess: <input name="guess">
+    <button id="submit-word">Submit!</button>
+</form>
+<section id="guess-result"></section>
+<section id="score-section">
+Score: <div id="score"></div>
+</section>
+<section id="timer-section">
+    Time remaining: <div id="timer"></div>
+</section>
+{% endblock %}

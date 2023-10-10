@@ -1,0 +1,59 @@
+a {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #96e3f7;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+    line-height: 25px;
+    text-decoration: none;
+    margin: auto;
+}
+
+td {  
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+  }
+
+  
+  table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    background-color: #96e3f7;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #score-section {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #timer-section {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #guess-result {
+    text-align: center;
+    margin-top: 10px;
+    color: #7131d3;
+  }
+
+  body {
+    background-color: #4E9CAF;
+  }
+
+  form {
+    text-align: center;
+    margin: auto;
+  }
+
+
